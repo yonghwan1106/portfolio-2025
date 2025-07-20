@@ -216,6 +216,186 @@ const projectEnhancements: Record<string, EnhancedProjectInfo> = {
     title: '군포시 디지털 헬스케어 특구',
     description: '군포시 디지털 헬스케어 산업 육성을 위한 특구 조성 아이디어 - 의료 혁신과 건강관리 서비스 통합 생태계',
     category: '지자체'
+  },
+  'Northern_GG_Public_Safety_Policy': {
+    title: '강북구 공공안전 정책 제안',
+    description: '강북구 주민 안전 강화를 위한 공공안전 정책 아이디어 - 스마트 기술을 활용한 지역 안전망 구축',
+    category: '안전'
+  },
+  'Ulsan_Regulatory_Reform': {
+    title: '울산시 규제개혁 아이디어 공모전',
+    description: '울산시 산업 혁신과 경쟁력 강화를 위한 규제개혁 아이디어 - 산업단지 규제 완화와 기업 활동 지원',
+    category: '규제혁신'
+  },
+  'mokpo_idea': {
+    title: '목포시 지역발전 아이디어 공모전',
+    description: '목포시의 해양 관광과 문화유산을 활용한 지역 경제 활성화 아이디어 - 서남권 중심도시 발전 전략',
+    category: '지자체'
+  },
+  'circular_economy_smart_community': {
+    title: '순환경제 스마트 커뮤니티 플랫폼',
+    description: '지역 기반 순환경제 실현을 위한 스마트 커뮤니티 플랫폼 - 자원 순환과 지속가능한 생활 생태계',
+    category: '환경'
+  },
+  'Incheon_Tourism_Digital_Platform': {
+    title: '인천시 관광 디지털 플랫폼',
+    description: '인천시 관광산업 디지털 혁신을 위한 통합 플랫폼 - 항만도시 특성을 활용한 관광 콘텐츠 개발',
+    category: '관광'
+  },
+  'Jangseong_Forest_Wellness_Platform': {
+    title: '장성군 산림휴양 웰니스 플랫폼',
+    description: '장성군의 풍부한 산림자원을 활용한 웰니스 관광 플랫폼 - 치유의 숲과 건강관리 서비스 연계',
+    category: '관광'
+  },
+  'FarmStay_Naju_Experience': {
+    title: '나주시 농촌체험 팜스테이 플랫폼',
+    description: '나주시 농촌 관광 활성화를 위한 팜스테이 예약 및 체험 플랫폼 - 농촌과 도시를 연결하는 디지털 브릿지',
+    category: '농업'
+  },
+  'CircularEconomy_NeighborGrid': {
+    title: '이웃그리드 순환경제 플랫폼',
+    description: '지역 주민 간 자원 공유와 순환경제를 실현하는 이웃 네트워크 플랫폼 - 지속가능한 공동체 경제 모델',
+    category: '환경'
+  },
+  'bucheon_idea': {
+    title: '부천시 혁신 아이디어 공모전',
+    description: '부천시 도시혁신과 시민 삶의 질 향상을 위한 아이디어 공모 - 문화도시 부천의 창의적 발전 방안',
+    category: '지자체'
+  },
+  'pet': {
+    title: '반려동물 통합 케어 플랫폼',
+    description: '반려동물의 건강관리, 병원 예약, 용품 구매를 통합한 원스톱 펫케어 서비스 플랫폼',
+    category: 'AI/디지털'
+  },
+  'Env_data_AirGuardian-Project': {
+    title: '에어가디언 - 환경데이터 대기질 모니터링',
+    description: '실시간 대기질 모니터링과 환경데이터 분석을 통한 시민 건강 보호 시스템 - IoT 기반 대기환경 관리',
+    category: '환경'
+  },
+  'yeosu-expo-2026-revenue-ideas': {
+    title: '여수엑스포 2026 수익창출 아이디어',
+    description: '2026 여수세계박람회 성공적 개최를 위한 혁신적 수익모델 개발 - 해양 관광과 연계한 지속가능한 수익구조',
+    category: '관광'
+  },
+  'taeback': {
+    title: '태백시 폐광지역 재생 프로젝트',
+    description: '태백시 폐광지역의 관광자원화와 지역경제 활성화 방안 - 산업유산을 활용한 창조적 도시재생',
+    category: '지자체'
+  },
+  'Haman_Industrial_Attraction_Strategy_2025': {
+    title: '함안군 기업유치 전략 2025',
+    description: '함안군 산업단지 조성과 기업유치를 위한 종합 전략 - 경남 서부권 산업 허브 구축 방안',
+    category: '지자체'
+  },
+  'FallSense_ElderCare_ICT_Competition': {
+    title: '폴센스 고령자 낙상감지 ICT 시스템',
+    description: '고령자 안전을 위한 AI 기반 낙상 감지 및 응급 대응 시스템 - 스마트 헬스케어 안전망',
+    category: '안전'
+  },
+  'ChangnyeongFarmFusion_2025': {
+    title: '창녕군 농업융합 혁신사업 2025',
+    description: '창녕군 농업과 ICT 기술 융합을 통한 스마트팜 육성 사업 - 6차 산업화 농업 혁신 모델',
+    category: '농업'
+  },
+  'SafetySync': {
+    title: '세이프티싱크 - 통합 안전관리 시스템',
+    description: '다양한 안전 시설과 서비스를 통합한 스마트 안전관리 플랫폼 - 실시간 위험 감지와 대응 시스템',
+    category: '안전'
+  },
+  'plugsafe': {
+    title: '플러그세이프 - 전기안전 모니터링',
+    description: '가정용 전기 안전을 위한 스마트 플러그 모니터링 시스템 - IoT 기반 전기화재 예방 솔루션',
+    category: '안전'
+  },
+  'CheongJu_C_Culture_Cafe': {
+    title: '청주시 문화카페 네트워크',
+    description: '청주시 지역 문화 활성화를 위한 문화카페 네트워크 플랫폼 - 시민 문화 공간 확대와 예술가 지원',
+    category: '문화'
+  },
+  'population_policy': {
+    title: '인구정책 데이터 분석 플랫폼',
+    description: '저출산 고령화 대응을 위한 인구정책 데이터 분석 및 정책 제안 시스템 - 데이터 기반 인구정책 수립',
+    category: '지자체'
+  },
+  'anseong': {
+    title: '안성시 농업관광 융합 플랫폼',
+    description: '안성시 농업과 관광을 연계한 6차 산업 활성화 플랫폼 - 안성맞춤 농촌관광 브랜드 구축',
+    category: '농업'
+  },
+  'mogefdatacontest': {
+    title: '여성가족부 데이터 활용 공모전',
+    description: '여성가족부 공공데이터를 활용한 성평등 정책 아이디어 공모 - 데이터 기반 여성 정책 혁신',
+    category: 'AI/디지털'
+  },
+  'port_ai': {
+    title: '항만 AI 물류 최적화 시스템',
+    description: '인공지능을 활용한 스마트 항만 물류 최적화 플랫폼 - 항만 운영 효율성과 자동화 혁신',
+    category: 'AI/디지털'
+  },
+  'guro_gfestival': {
+    title: '구로구 G-페스티벌 디지털 플랫폼',
+    description: '구로구 지역축제 G-페스티벌의 디지털 혁신 플랫폼 - 시민 참여형 축제 운영과 지역 문화 활성화',
+    category: '문화'
+  },
+  'telecom-proposal': {
+    title: '통신업계 혁신 제안서',
+    description: '통신산업 규제개선과 5G/6G 시대 대응을 위한 정책 제안 - 통신 인프라 혁신과 디지털 전환',
+    category: '규제혁신'
+  },
+  'pochun': {
+    title: '포천시 관광 활성화 전략',
+    description: '포천시 자연관광 자원을 활용한 관광산업 육성 방안 - 힐링 관광과 체험 프로그램 개발',
+    category: '관광'
+  },
+  'jangseong': {
+    title: '장성군 황룡강 생태관광 플랫폼',
+    description: '장성군 황룡강 일대의 생태관광 활성화를 위한 디지털 플랫폼 - 생태보전과 관광 상생 모델',
+    category: '관광'
+  },
+  'night_market': {
+    title: '전국 야시장 통합 플랫폼',
+    description: '전국 야시장 정보 통합과 상인-고객 연결 서비스 - 야시장 문화 활성화와 지역경제 상생',
+    category: '관광'
+  },
+  'chungbook1': {
+    title: '충북 지역혁신 플랫폼',
+    description: '충청북도 지역혁신과 균형발전을 위한 통합 정책 플랫폼 - 내륙권 경쟁력 강화 전략',
+    category: '지자체'
+  },
+  'drone_robot': {
+    title: '드론-로봇 융합 배송 시스템',
+    description: '드론과 지상 로봇을 결합한 혁신적 무인 배송 시스템 - 라스트마일 배송 혁신과 물류 자동화',
+    category: 'AI/디지털'
+  },
+  'bus_occupancy': {
+    title: '버스 승차 혼잡도 AI 분석 시스템',
+    description: '실시간 버스 승차 인원과 혼잡도를 AI로 분석하는 대중교통 최적화 시스템 - 스마트 배차 서비스',
+    category: 'AI/디지털'
+  },
+  'barrior_free': {
+    title: '배리어프리 도시환경 플랫폼',
+    description: '장애인과 교통약자를 위한 무장벽 도시환경 구축 플랫폼 - 접근성 향상과 포용적 도시설계',
+    category: '안전'
+  },
+  'open_center': {
+    title: '영등포구 공공시설 야간개방 플랫폼',
+    description: '영등포구 공공시설의 야간 개방 확대를 통한 시민 편의 증진 서비스 - 공공자원 활용 최적화',
+    category: '지자체'
+  },
+  'test': {
+    title: '테스트 프로젝트',
+    description: '개발 테스트 및 프로토타입 검증을 위한 실험적 프로젝트 - 새로운 기술과 아이디어 검증',
+    category: '기타'
+  },
+  'Supper': {
+    title: '슈퍼 - 지역상권 연결 플랫폼',
+    description: '지역 슈퍼마켓과 소상공인을 연결하는 동네상권 활성화 플랫폼 - 지역경제 순환과 상생협력',
+    category: 'AI/디지털'
+  },
+  'work24': {
+    title: 'Work24 - 24시간 업무 협업 플랫폼',
+    description: '시간과 장소에 구애받지 않는 24시간 업무 협업 도구 - 원격근무와 디지털 워크플로우 최적화',
+    category: 'AI/디지털'
   }
 };
 

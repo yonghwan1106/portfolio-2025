@@ -1,0 +1,2404 @@
+{
+  "scan_info": {
+    "scan_date": "2025-07-20T16:08:12.511893",
+    "total_projects": 59,
+    "scanner_version": "2.1"
+  },
+  "projects": [
+    {
+      "id": "customs-validation-demo",
+      "name": "customs-validation-demo",
+      "scan_date": "2025-07-20T16:08:12.510798",
+      "deployments": [
+        {
+          "platform": "vercel",
+          "url": "https://customs-validation-demo.vercel.app/",
+          "response_code": 200,
+          "content_length": 29593
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "vercel": {
+          "url": "https://customs-validation-demo.vercel.app/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 29593
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://customs-validation-demo.vercel.app/",
+      "primary_platform": "vercel",
+      "is_live": true,
+      "category": "기타",
+      "title": "customs-validation-demo",
+      "description": "",
+      "github_url": "https://customs-validation-demo.vercel.app/",
+      "quality_score": 65
+    },
+    {
+      "id": "IdeaVault",
+      "name": "IdeaVault",
+      "scan_date": "2025-07-20T16:08:12.510826",
+      "deployments": [
+        {
+          "platform": "vercel",
+          "url": "https://IdeaVault.vercel.app/",
+          "response_code": 200,
+          "content_length": 23538
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "vercel": {
+          "url": "https://IdeaVault.vercel.app/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 23538
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://IdeaVault.vercel.app/",
+      "primary_platform": "vercel",
+      "is_live": true,
+      "category": "기타",
+      "title": "IdeaVault",
+      "description": "",
+      "github_url": "https://IdeaVault.vercel.app/",
+      "quality_score": 65
+    },
+    {
+      "id": "safenergy-platform",
+      "name": "safenergy-platform",
+      "scan_date": "2025-07-20T16:08:12.510832",
+      "deployments": [
+        {
+          "platform": "vercel",
+          "url": "https://safenergy-platform.vercel.app/",
+          "response_code": 200,
+          "content_length": 8608
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "vercel": {
+          "url": "https://safenergy-platform.vercel.app/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 8608
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://safenergy-platform.vercel.app/",
+      "primary_platform": "vercel",
+      "is_live": true,
+      "category": "기타",
+      "title": "safenergy-platform",
+      "description": "",
+      "github_url": "https://safenergy-platform.vercel.app/",
+      "quality_score": 65
+    },
+    {
+      "id": "ai-strategic-tech-classifier-2025",
+      "name": "ai-strategic-tech-classifier-2025",
+      "scan_date": "2025-07-20T16:08:12.510835",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/ai-strategic-tech-classifier-2025/",
+          "response_code": 200,
+          "content_length": 57038
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/ai-strategic-tech-classifier-2025/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 57038
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/ai-strategic-tech-classifier-2025/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "ai-strategic-tech-classifier-2025",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/ai-strategic-tech-classifier-2025/",
+      "quality_score": 65
+    },
+    {
+      "id": "smartkids",
+      "name": "smartkids",
+      "scan_date": "2025-07-20T16:08:12.510838",
+      "deployments": [
+        {
+          "platform": "vercel",
+          "url": "https://smartkids.vercel.app/",
+          "response_code": 200,
+          "content_length": 41487
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "vercel": {
+          "url": "https://smartkids.vercel.app/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 41487
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://smartkids.vercel.app/",
+      "primary_platform": "vercel",
+      "is_live": true,
+      "category": "기타",
+      "title": "smartkids",
+      "description": "",
+      "github_url": "https://smartkids.vercel.app/",
+      "quality_score": 65
+    },
+    {
+      "id": "media_compass_prototype",
+      "name": "media_compass_prototype",
+      "scan_date": "2025-07-20T16:08:12.510842",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/media_compass_prototype/",
+          "response_code": 200,
+          "content_length": 56528
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/media_compass_prototype/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 56528
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/media_compass_prototype/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "media_compass_prototype",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/media_compass_prototype/",
+      "quality_score": 65
+    },
+    {
+      "id": "geunnae-residence",
+      "name": "geunnae-residence",
+      "scan_date": "2025-07-20T16:08:12.510845",
+      "deployments": [
+        {
+          "platform": "vercel",
+          "url": "https://geunnae-residence.vercel.app/",
+          "response_code": 200,
+          "content_length": 19901
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "vercel": {
+          "url": "https://geunnae-residence.vercel.app/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 19901
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://geunnae-residence.vercel.app/",
+      "primary_platform": "vercel",
+      "is_live": true,
+      "category": "기타",
+      "title": "geunnae-residence",
+      "description": "",
+      "github_url": "https://geunnae-residence.vercel.app/",
+      "quality_score": 65
+    },
+    {
+      "id": "labor_safety_smart_manager",
+      "name": "labor_safety_smart_manager",
+      "scan_date": "2025-07-20T16:08:12.510848",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/labor_safety_smart_manager/",
+          "response_code": 200,
+          "content_length": 45781
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/labor_safety_smart_manager/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 45781
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/labor_safety_smart_manager/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "labor_safety_smart_manager",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/labor_safety_smart_manager/",
+      "quality_score": 65
+    },
+    {
+      "id": "daily-vibes",
+      "name": "daily-vibes",
+      "scan_date": "2025-07-20T16:08:12.510852",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/daily-vibes/",
+          "response_code": 200,
+          "content_length": 2180
+        },
+        {
+          "platform": "vercel",
+          "url": "https://daily-vibes.vercel.app/",
+          "response_code": 200,
+          "content_length": 12435
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/daily-vibes/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 2180
+        },
+        "vercel": {
+          "url": "https://daily-vibes.vercel.app/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 12435
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 2,
+      "primary_url": "https://daily-vibes.vercel.app/",
+      "primary_platform": "vercel",
+      "is_live": true,
+      "category": "기타",
+      "title": "daily-vibes",
+      "description": "",
+      "github_url": "https://daily-vibes.vercel.app/",
+      "quality_score": 80
+    },
+    {
+      "id": "BlueCarbon_Monitor",
+      "name": "BlueCarbon_Monitor",
+      "scan_date": "2025-07-20T16:08:12.510856",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/BlueCarbon_Monitor/",
+          "response_code": 200,
+          "content_length": 9840
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/BlueCarbon_Monitor/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 9840
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/BlueCarbon_Monitor/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "BlueCarbon_Monitor",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/BlueCarbon_Monitor/",
+      "quality_score": 65
+    },
+    {
+      "id": "Hwaseong_Birth_Policy_Contest_2025",
+      "name": "Hwaseong_Birth_Policy_Contest_2025",
+      "scan_date": "2025-07-20T16:08:12.510859",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/Hwaseong_Birth_Policy_Contest_2025/",
+          "response_code": 200,
+          "content_length": 6817
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/Hwaseong_Birth_Policy_Contest_2025/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 6817
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/Hwaseong_Birth_Policy_Contest_2025/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "Hwaseong_Birth_Policy_Contest_2025",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/Hwaseong_Birth_Policy_Contest_2025/",
+      "quality_score": 65
+    },
+    {
+      "id": "AI_Smart_Procurement_Advisor",
+      "name": "AI_Smart_Procurement_Advisor",
+      "scan_date": "2025-07-20T16:08:12.510862",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/AI_Smart_Procurement_Advisor/",
+          "response_code": 200,
+          "content_length": 96817
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/AI_Smart_Procurement_Advisor/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 96817
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/AI_Smart_Procurement_Advisor/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "AI_Smart_Procurement_Advisor",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/AI_Smart_Procurement_Advisor/",
+      "quality_score": 65
+    },
+    {
+      "id": "TONGYEONG_INTEGRITY_CONTEST_2025",
+      "name": "TONGYEONG_INTEGRITY_CONTEST_2025",
+      "scan_date": "2025-07-20T16:08:12.510865",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/TONGYEONG_INTEGRITY_CONTEST_2025/",
+          "response_code": 200,
+          "content_length": 35692
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/TONGYEONG_INTEGRITY_CONTEST_2025/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 35692
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/TONGYEONG_INTEGRITY_CONTEST_2025/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "TONGYEONG_INTEGRITY_CONTEST_2025",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/TONGYEONG_INTEGRITY_CONTEST_2025/",
+      "quality_score": 65
+    },
+    {
+      "id": "portfolio-hub",
+      "name": "portfolio-hub",
+      "scan_date": "2025-07-20T16:08:12.510870",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/portfolio-hub/",
+          "response_code": 200,
+          "content_length": 1486
+        },
+        {
+          "platform": "vercel",
+          "url": "https://portfolio-hub.vercel.app/",
+          "response_code": 200,
+          "content_length": 5086
+        },
+        {
+          "platform": "render",
+          "url": "https://portfolio-hub.onrender.com/",
+          "response_code": 200,
+          "content_length": 939
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/portfolio-hub/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 1486
+        },
+        "vercel": {
+          "url": "https://portfolio-hub.vercel.app/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 5086
+        },
+        "render": {
+          "url": "https://portfolio-hub.onrender.com/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 939
+        }
+      },
+      "total_deployments": 3,
+      "primary_url": "https://portfolio-hub.vercel.app/",
+      "primary_platform": "vercel",
+      "is_live": true,
+      "category": "기타",
+      "title": "portfolio-hub",
+      "description": "",
+      "github_url": "https://portfolio-hub.vercel.app/",
+      "quality_score": 95
+    },
+    {
+      "id": "kodit-global-bridge-demo",
+      "name": "kodit-global-bridge-demo",
+      "scan_date": "2025-07-20T16:08:12.510874",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/kodit-global-bridge-demo/",
+          "response_code": 200,
+          "content_length": 51249
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/kodit-global-bridge-demo/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 51249
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/kodit-global-bridge-demo/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "kodit-global-bridge-demo",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/kodit-global-bridge-demo/",
+      "quality_score": 65
+    },
+    {
+      "id": "EcoChallenge_KOMIPO",
+      "name": "EcoChallenge_KOMIPO",
+      "scan_date": "2025-07-20T16:08:12.510878",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/EcoChallenge_KOMIPO/",
+          "response_code": 200,
+          "content_length": 13225
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/EcoChallenge_KOMIPO/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 13225
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/EcoChallenge_KOMIPO/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "EcoChallenge_KOMIPO",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/EcoChallenge_KOMIPO/",
+      "quality_score": 65
+    },
+    {
+      "id": "Goryeong_Policy_Proposal_2025",
+      "name": "Goryeong_Policy_Proposal_2025",
+      "scan_date": "2025-07-20T16:08:12.510881",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/Goryeong_Policy_Proposal_2025/",
+          "response_code": 200,
+          "content_length": 44719
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/Goryeong_Policy_Proposal_2025/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 44719
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/Goryeong_Policy_Proposal_2025/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "Goryeong_Policy_Proposal_2025",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/Goryeong_Policy_Proposal_2025/",
+      "quality_score": 65
+    },
+    {
+      "id": "BUSAN_GEUMJEONG_HOMETOWN_DONATION_CONTEST_2025",
+      "name": "BUSAN_GEUMJEONG_HOMETOWN_DONATION_CONTEST_2025",
+      "scan_date": "2025-07-20T16:08:12.510884",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/BUSAN_GEUMJEONG_HOMETOWN_DONATION_CONTEST_2025/",
+          "response_code": 200,
+          "content_length": 90659
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/BUSAN_GEUMJEONG_HOMETOWN_DONATION_CONTEST_2025/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 90659
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/BUSAN_GEUMJEONG_HOMETOWN_DONATION_CONTEST_2025/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "BUSAN_GEUMJEONG_HOMETOWN_DONATION_CONTEST_2025",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/BUSAN_GEUMJEONG_HOMETOWN_DONATION_CONTEST_2025/",
+      "quality_score": 65
+    },
+    {
+      "id": "AgriFood_Regulation_Innovation_2025",
+      "name": "AgriFood_Regulation_Innovation_2025",
+      "scan_date": "2025-07-20T16:08:12.510888",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/AgriFood_Regulation_Innovation_2025/",
+          "response_code": 200,
+          "content_length": 21372
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/AgriFood_Regulation_Innovation_2025/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 21372
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/AgriFood_Regulation_Innovation_2025/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "AgriFood_Regulation_Innovation_2025",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/AgriFood_Regulation_Innovation_2025/",
+      "quality_score": 65
+    },
+    {
+      "id": "Gangwon_Marine_Tourism_Contest",
+      "name": "Gangwon_Marine_Tourism_Contest",
+      "scan_date": "2025-07-20T16:08:12.510892",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/Gangwon_Marine_Tourism_Contest/",
+          "response_code": 200,
+          "content_length": 27860
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/Gangwon_Marine_Tourism_Contest/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 27860
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/Gangwon_Marine_Tourism_Contest/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "Gangwon_Marine_Tourism_Contest",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/Gangwon_Marine_Tourism_Contest/",
+      "quality_score": 65
+    },
+    {
+      "id": "damyang_regulation_innovation_contest",
+      "name": "damyang_regulation_innovation_contest",
+      "scan_date": "2025-07-20T16:08:12.510895",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/damyang_regulation_innovation_contest/",
+          "response_code": 200,
+          "content_length": 21618
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/damyang_regulation_innovation_contest/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 21618
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/damyang_regulation_innovation_contest/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "damyang_regulation_innovation_contest",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/damyang_regulation_innovation_contest/",
+      "quality_score": 65
+    },
+    {
+      "id": "jung-gu-smart-carbon-care",
+      "name": "jung-gu-smart-carbon-care",
+      "scan_date": "2025-07-20T16:08:12.510899",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/jung-gu-smart-carbon-care/",
+          "response_code": 200,
+          "content_length": 29010
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/jung-gu-smart-carbon-care/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 29010
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/jung-gu-smart-carbon-care/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "jung-gu-smart-carbon-care",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/jung-gu-smart-carbon-care/",
+      "quality_score": 65
+    },
+    {
+      "id": "DAEGU_REGULATION_INNOVATION_CONTEST_2025",
+      "name": "DAEGU_REGULATION_INNOVATION_CONTEST_2025",
+      "scan_date": "2025-07-20T16:08:12.510901",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/DAEGU_REGULATION_INNOVATION_CONTEST_2025/",
+          "response_code": 200,
+          "content_length": 22656
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/DAEGU_REGULATION_INNOVATION_CONTEST_2025/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 22656
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/DAEGU_REGULATION_INNOVATION_CONTEST_2025/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "DAEGU_REGULATION_INNOVATION_CONTEST_2025",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/DAEGU_REGULATION_INNOVATION_CONTEST_2025/",
+      "quality_score": 65
+    },
+    {
+      "id": "Gyeonggi_GenAI_PublicData_Startup",
+      "name": "Gyeonggi_GenAI_PublicData_Startup",
+      "scan_date": "2025-07-20T16:08:12.510904",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/Gyeonggi_GenAI_PublicData_Startup/",
+          "response_code": 200,
+          "content_length": 61727
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/Gyeonggi_GenAI_PublicData_Startup/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 61727
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/Gyeonggi_GenAI_PublicData_Startup/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "Gyeonggi_GenAI_PublicData_Startup",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/Gyeonggi_GenAI_PublicData_Startup/",
+      "quality_score": 65
+    },
+    {
+      "id": "Yangpyeong_County_Development_Ideas",
+      "name": "Yangpyeong_County_Development_Ideas",
+      "scan_date": "2025-07-20T16:08:12.510908",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/Yangpyeong_County_Development_Ideas/",
+          "response_code": 200,
+          "content_length": 24545
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/Yangpyeong_County_Development_Ideas/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 24545
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/Yangpyeong_County_Development_Ideas/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "Yangpyeong_County_Development_Ideas",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/Yangpyeong_County_Development_Ideas/",
+      "quality_score": 65
+    },
+    {
+      "id": "Northern_GG_Public_Safety_Policy",
+      "name": "Northern_GG_Public_Safety_Policy",
+      "scan_date": "2025-07-20T16:08:12.510912",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/Northern_GG_Public_Safety_Policy/",
+          "response_code": 200,
+          "content_length": 159234
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/Northern_GG_Public_Safety_Policy/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 159234
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/Northern_GG_Public_Safety_Policy/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "Northern_GG_Public_Safety_Policy",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/Northern_GG_Public_Safety_Policy/",
+      "quality_score": 65
+    },
+    {
+      "id": "navermap",
+      "name": "navermap",
+      "scan_date": "2025-07-20T16:08:12.510915",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/navermap/",
+          "response_code": 200,
+          "content_length": 1787
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/navermap/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 1787
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/navermap/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "navermap",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/navermap/",
+      "quality_score": 65
+    },
+    {
+      "id": "gunpo-digital-healthcare-zone",
+      "name": "gunpo-digital-healthcare-zone",
+      "scan_date": "2025-07-20T16:08:12.510919",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/gunpo-digital-healthcare-zone/",
+          "response_code": 200,
+          "content_length": 20554
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/gunpo-digital-healthcare-zone/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 20554
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/gunpo-digital-healthcare-zone/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "gunpo-digital-healthcare-zone",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/gunpo-digital-healthcare-zone/",
+      "quality_score": 65
+    },
+    {
+      "id": "Ulsan_Regulatory_Reform",
+      "name": "Ulsan_Regulatory_Reform",
+      "scan_date": "2025-07-20T16:08:12.510922",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/Ulsan_Regulatory_Reform/",
+          "response_code": 200,
+          "content_length": 29856
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/Ulsan_Regulatory_Reform/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 29856
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/Ulsan_Regulatory_Reform/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "Ulsan_Regulatory_Reform",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/Ulsan_Regulatory_Reform/",
+      "quality_score": 65
+    },
+    {
+      "id": "mokpo_idea",
+      "name": "mokpo_idea",
+      "scan_date": "2025-07-20T16:08:12.510926",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/mokpo_idea/",
+          "response_code": 200,
+          "content_length": 45967
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/mokpo_idea/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 45967
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/mokpo_idea/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "mokpo_idea",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/mokpo_idea/",
+      "quality_score": 65
+    },
+    {
+      "id": "CircularEconomy_NeighborGrid",
+      "name": "CircularEconomy_NeighborGrid",
+      "scan_date": "2025-07-20T16:08:12.510930",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/CircularEconomy_NeighborGrid/",
+          "response_code": 200,
+          "content_length": 66019
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/CircularEconomy_NeighborGrid/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 66019
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/CircularEconomy_NeighborGrid/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "CircularEconomy_NeighborGrid",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/CircularEconomy_NeighborGrid/",
+      "quality_score": 65
+    },
+    {
+      "id": "bucheon_idea",
+      "name": "bucheon_idea",
+      "scan_date": "2025-07-20T16:08:12.510933",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/bucheon_idea/",
+          "response_code": 200,
+          "content_length": 48352
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/bucheon_idea/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 48352
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/bucheon_idea/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "bucheon_idea",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/bucheon_idea/",
+      "quality_score": 65
+    },
+    {
+      "id": "pet",
+      "name": "pet",
+      "scan_date": "2025-07-20T16:08:12.510937",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/pet/",
+          "response_code": 200,
+          "content_length": 52854
+        },
+        {
+          "platform": "vercel",
+          "url": "https://pet.vercel.app/",
+          "response_code": 200,
+          "content_length": 1687
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/pet/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 52854
+        },
+        "vercel": {
+          "url": "https://pet.vercel.app/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 1687
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 2,
+      "primary_url": "https://pet.vercel.app/",
+      "primary_platform": "vercel",
+      "is_live": true,
+      "category": "기타",
+      "title": "pet",
+      "description": "",
+      "github_url": "https://pet.vercel.app/",
+      "quality_score": 80
+    },
+    {
+      "id": "Env_data_AirGuardian-Project",
+      "name": "Env_data_AirGuardian-Project",
+      "scan_date": "2025-07-20T16:08:12.510946",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/Env_data_AirGuardian-Project/",
+          "response_code": 200,
+          "content_length": 42418
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/Env_data_AirGuardian-Project/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 42418
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/Env_data_AirGuardian-Project/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "Env_data_AirGuardian-Project",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/Env_data_AirGuardian-Project/",
+      "quality_score": 65
+    },
+    {
+      "id": "yeosu-expo-2026-revenue-ideas",
+      "name": "yeosu-expo-2026-revenue-ideas",
+      "scan_date": "2025-07-20T16:08:12.510950",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/yeosu-expo-2026-revenue-ideas/",
+          "response_code": 200,
+          "content_length": 23429
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/yeosu-expo-2026-revenue-ideas/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 23429
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/yeosu-expo-2026-revenue-ideas/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "yeosu-expo-2026-revenue-ideas",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/yeosu-expo-2026-revenue-ideas/",
+      "quality_score": 65
+    },
+    {
+      "id": "taeback",
+      "name": "taeback",
+      "scan_date": "2025-07-20T16:08:12.510954",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/taeback/",
+          "response_code": 200,
+          "content_length": 58659
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/taeback/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 58659
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/taeback/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "taeback",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/taeback/",
+      "quality_score": 65
+    },
+    {
+      "id": "Haman_Industrial_Attraction_Strategy_2025",
+      "name": "Haman_Industrial_Attraction_Strategy_2025",
+      "scan_date": "2025-07-20T16:08:12.510957",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/Haman_Industrial_Attraction_Strategy_2025/",
+          "response_code": 200,
+          "content_length": 32685
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/Haman_Industrial_Attraction_Strategy_2025/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 32685
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/Haman_Industrial_Attraction_Strategy_2025/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "Haman_Industrial_Attraction_Strategy_2025",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/Haman_Industrial_Attraction_Strategy_2025/",
+      "quality_score": 65
+    },
+    {
+      "id": "FallSense_ElderCare_ICT_Competition",
+      "name": "FallSense_ElderCare_ICT_Competition",
+      "scan_date": "2025-07-20T16:08:12.510960",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/FallSense_ElderCare_ICT_Competition/",
+          "response_code": 200,
+          "content_length": 71652
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/FallSense_ElderCare_ICT_Competition/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 71652
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/FallSense_ElderCare_ICT_Competition/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "FallSense_ElderCare_ICT_Competition",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/FallSense_ElderCare_ICT_Competition/",
+      "quality_score": 65
+    },
+    {
+      "id": "ChangnyeongFarmFusion_2025",
+      "name": "ChangnyeongFarmFusion_2025",
+      "scan_date": "2025-07-20T16:08:12.511810",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/ChangnyeongFarmFusion_2025/",
+          "response_code": 200,
+          "content_length": 64243
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/ChangnyeongFarmFusion_2025/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 64243
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/ChangnyeongFarmFusion_2025/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "ChangnyeongFarmFusion_2025",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/ChangnyeongFarmFusion_2025/",
+      "quality_score": 65
+    },
+    {
+      "id": "SafetySync",
+      "name": "SafetySync",
+      "scan_date": "2025-07-20T16:08:12.511826",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/SafetySync/",
+          "response_code": 200,
+          "content_length": 21562
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/SafetySync/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 21562
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/SafetySync/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "SafetySync",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/SafetySync/",
+      "quality_score": 65
+    },
+    {
+      "id": "plugsafe",
+      "name": "plugsafe",
+      "scan_date": "2025-07-20T16:08:12.511829",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/plugsafe/",
+          "response_code": 200,
+          "content_length": 32037
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/plugsafe/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 32037
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/plugsafe/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "plugsafe",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/plugsafe/",
+      "quality_score": 65
+    },
+    {
+      "id": "CheongJu_C_Culture_Cafe",
+      "name": "CheongJu_C_Culture_Cafe",
+      "scan_date": "2025-07-20T16:08:12.511833",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/CheongJu_C_Culture_Cafe/",
+          "response_code": 200,
+          "content_length": 50697
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/CheongJu_C_Culture_Cafe/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 50697
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/CheongJu_C_Culture_Cafe/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "CheongJu_C_Culture_Cafe",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/CheongJu_C_Culture_Cafe/",
+      "quality_score": 65
+    },
+    {
+      "id": "population_policy",
+      "name": "population_policy",
+      "scan_date": "2025-07-20T16:08:12.511836",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/population_policy/",
+          "response_code": 200,
+          "content_length": 41300
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/population_policy/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 41300
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/population_policy/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "population_policy",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/population_policy/",
+      "quality_score": 65
+    },
+    {
+      "id": "anseong",
+      "name": "anseong",
+      "scan_date": "2025-07-20T16:08:12.511839",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/anseong/",
+          "response_code": 200,
+          "content_length": 52440
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/anseong/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 52440
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/anseong/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "anseong",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/anseong/",
+      "quality_score": 65
+    },
+    {
+      "id": "mogefdatacontest",
+      "name": "mogefdatacontest",
+      "scan_date": "2025-07-20T16:08:12.511842",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/mogefdatacontest/",
+          "response_code": 200,
+          "content_length": 55134
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/mogefdatacontest/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 55134
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/mogefdatacontest/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "mogefdatacontest",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/mogefdatacontest/",
+      "quality_score": 65
+    },
+    {
+      "id": "port_ai",
+      "name": "port_ai",
+      "scan_date": "2025-07-20T16:08:12.511845",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/port_ai/",
+          "response_code": 200,
+          "content_length": 66560
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/port_ai/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 66560
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/port_ai/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "port_ai",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/port_ai/",
+      "quality_score": 65
+    },
+    {
+      "id": "guro_gfestival",
+      "name": "guro_gfestival",
+      "scan_date": "2025-07-20T16:08:12.511848",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/guro_gfestival/",
+          "response_code": 200,
+          "content_length": 43354
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/guro_gfestival/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 43354
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/guro_gfestival/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "guro_gfestival",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/guro_gfestival/",
+      "quality_score": 65
+    },
+    {
+      "id": "telecom-proposal",
+      "name": "telecom-proposal",
+      "scan_date": "2025-07-20T16:08:12.511852",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/telecom-proposal/",
+          "response_code": 200,
+          "content_length": 36705
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/telecom-proposal/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 36705
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/telecom-proposal/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "telecom-proposal",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/telecom-proposal/",
+      "quality_score": 65
+    },
+    {
+      "id": "pochun",
+      "name": "pochun",
+      "scan_date": "2025-07-20T16:08:12.511855",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/pochun/",
+          "response_code": 200,
+          "content_length": 33466
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/pochun/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 33466
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/pochun/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "pochun",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/pochun/",
+      "quality_score": 65
+    },
+    {
+      "id": "jangseong",
+      "name": "jangseong",
+      "scan_date": "2025-07-20T16:08:12.511859",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/jangseong/",
+          "response_code": 200,
+          "content_length": 7961
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/jangseong/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 7961
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/jangseong/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "jangseong",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/jangseong/",
+      "quality_score": 65
+    },
+    {
+      "id": "night_market",
+      "name": "night_market",
+      "scan_date": "2025-07-20T16:08:12.511863",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/night_market/",
+          "response_code": 200,
+          "content_length": 17859
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/night_market/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 17859
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/night_market/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "night_market",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/night_market/",
+      "quality_score": 65
+    },
+    {
+      "id": "chungbook1",
+      "name": "chungbook1",
+      "scan_date": "2025-07-20T16:08:12.511866",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/chungbook1/",
+          "response_code": 200,
+          "content_length": 14266
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/chungbook1/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 14266
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/chungbook1/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "chungbook1",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/chungbook1/",
+      "quality_score": 65
+    },
+    {
+      "id": "drone_robot",
+      "name": "drone_robot",
+      "scan_date": "2025-07-20T16:08:12.511869",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/drone_robot/",
+          "response_code": 200,
+          "content_length": 34797
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/drone_robot/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 34797
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/drone_robot/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "drone_robot",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/drone_robot/",
+      "quality_score": 65
+    },
+    {
+      "id": "bus_occupancy",
+      "name": "bus_occupancy",
+      "scan_date": "2025-07-20T16:08:12.511873",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/bus_occupancy/",
+          "response_code": 200,
+          "content_length": 17045
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/bus_occupancy/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 17045
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/bus_occupancy/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "bus_occupancy",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/bus_occupancy/",
+      "quality_score": 65
+    },
+    {
+      "id": "barrior_free",
+      "name": "barrior_free",
+      "scan_date": "2025-07-20T16:08:12.511876",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/barrior_free/",
+          "response_code": 200,
+          "content_length": 6282
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/barrior_free/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 6282
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/barrior_free/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "barrior_free",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/barrior_free/",
+      "quality_score": 65
+    },
+    {
+      "id": "open_center",
+      "name": "open_center",
+      "scan_date": "2025-07-20T16:08:12.511879",
+      "deployments": [
+        {
+          "platform": "github_pages",
+          "url": "https://yonghwan1106.github.io/open_center/",
+          "response_code": 200,
+          "content_length": 18490
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "https://yonghwan1106.github.io/open_center/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 18490
+        },
+        "vercel": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://yonghwan1106.github.io/open_center/",
+      "primary_platform": "github_pages",
+      "is_live": true,
+      "category": "기타",
+      "title": "open_center",
+      "description": "",
+      "github_url": "https://yonghwan1106.github.io/open_center/",
+      "quality_score": 65
+    },
+    {
+      "id": "test",
+      "name": "test",
+      "scan_date": "2025-07-20T16:08:12.511883",
+      "deployments": [
+        {
+          "platform": "vercel",
+          "url": "https://test.vercel.app/",
+          "response_code": 200,
+          "content_length": 7990
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "vercel": {
+          "url": "https://test.vercel.app/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 7990
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://test.vercel.app/",
+      "primary_platform": "vercel",
+      "is_live": true,
+      "category": "기타",
+      "title": "test",
+      "description": "",
+      "github_url": "https://test.vercel.app/",
+      "quality_score": 65
+    },
+    {
+      "id": "Supper",
+      "name": "Supper",
+      "scan_date": "2025-07-20T16:08:12.511887",
+      "deployments": [
+        {
+          "platform": "vercel",
+          "url": "https://Supper.vercel.app/",
+          "response_code": 200,
+          "content_length": 613
+        },
+        {
+          "platform": "render",
+          "url": "https://Supper.onrender.com/",
+          "response_code": 200,
+          "content_length": 3155
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "vercel": {
+          "url": "https://Supper.vercel.app/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 613
+        },
+        "render": {
+          "url": "https://Supper.onrender.com/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 3155
+        }
+      },
+      "total_deployments": 2,
+      "primary_url": "https://Supper.vercel.app/",
+      "primary_platform": "vercel",
+      "is_live": true,
+      "category": "기타",
+      "title": "Supper",
+      "description": "",
+      "github_url": "https://Supper.vercel.app/",
+      "quality_score": 80
+    },
+    {
+      "id": "work24",
+      "name": "work24",
+      "scan_date": "2025-07-20T16:08:12.511890",
+      "deployments": [
+        {
+          "platform": "vercel",
+          "url": "https://work24.vercel.app/",
+          "response_code": 200,
+          "content_length": 1212
+        }
+      ],
+      "platforms": {
+        "github": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        },
+        "vercel": {
+          "url": "https://work24.vercel.app/",
+          "status": "live",
+          "response_code": 200,
+          "content_length": 1212
+        },
+        "render": {
+          "url": "",
+          "status": "not_found",
+          "response_code": null
+        }
+      },
+      "total_deployments": 1,
+      "primary_url": "https://work24.vercel.app/",
+      "primary_platform": "vercel",
+      "is_live": true,
+      "category": "기타",
+      "title": "work24",
+      "description": "",
+      "github_url": "https://work24.vercel.app/",
+      "quality_score": 65
+    }
+  ]
+}

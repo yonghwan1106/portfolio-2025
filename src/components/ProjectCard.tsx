@@ -56,6 +56,87 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, featured = false }) 
     return colors[platform] || 'bg-gray-100 text-gray-600';
   };
 
+  const getProjectFeatures = (project: Project): string => {
+    const features = [];
+    
+    if (project.name.includes('ai') || project.name.includes('AI')) {
+      features.push('AI 기술 활용');
+    }
+    if (project.name.includes('smart') || project.name.includes('스마트')) {
+      features.push('스마트 시스템');
+    }
+    if (project.name.includes('validation') || project.name.includes('검증')) {
+      features.push('데이터 검증');
+    }
+    if (project.name.includes('classifier') || project.name.includes('분류')) {
+      features.push('자동 분류');
+    }
+    if (project.name.includes('demo') || project.name.includes('데모')) {
+      features.push('데모 사이트');
+    }
+    if (project.name.includes('hub') || project.name.includes('허브')) {
+      features.push('통합 플랫폼');
+    }
+    if (project.name.includes('vibes') || project.name.includes('감정')) {
+      features.push('감정 분석');
+    }
+    if (project.name.includes('guard') || project.name.includes('보안')) {
+      features.push('보안 시스템');
+    }
+    if (project.name.includes('carbon') || project.name.includes('탄소')) {
+      features.push('탄소 관리');
+    }
+    if (project.name.includes('platform') || project.name.includes('플랫폼')) {
+      features.push('플랫폼 서비스');
+    }
+    
+    return features.length > 0 ? features.slice(0, 2).join(', ') : '웹 애플리케이션';
+  };
+
+  const getProjectTechStack = (project: Project): string => {
+    const techs = [];
+    
+    if (project.has_js) techs.push('JavaScript');
+    if (project.has_css) techs.push('CSS');
+    if (project.has_responsive) techs.push('반응형 디자인');
+    
+    // 프로젝트명으로 기술 스택 추정
+    if (project.name.includes('react') || project.name.includes('React')) {
+      techs.push('React');
+    }
+    if (project.name.includes('vue') || project.name.includes('Vue')) {
+      techs.push('Vue.js');
+    }
+    if (project.name.includes('node') || project.name.includes('express')) {
+      techs.push('Node.js');
+    }
+    if (project.name.includes('python') || project.name.includes('flask') || project.name.includes('django')) {
+      techs.push('Python');
+    }
+    
+    if (techs.length === 0) {
+      return 'HTML, CSS, JavaScript';
+    }
+    
+    return [...new Set(techs)].slice(0, 3).join(', ');
+  };
+
+  const getProjectHighlight = (project: Project): string | null => {
+    if (project.quality_score >= 90) {
+      return '고품질 구현, 완성도 높은 UI/UX';
+    }
+    if (project.quality_score >= 80) {
+      return '안정적인 구현, 우수한 사용자 경험';
+    }
+    if (project.total_deployments > 1) {
+      return '다중 플랫폼 배포, 높은 접근성';
+    }
+    if (project.is_live) {
+      return '실제 서비스 운영 중';
+    }
+    return null;
+  };
+
   return (
     <div className={cardClass}>
       {featured && (
@@ -110,9 +191,40 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, featured = false }) 
         </div>
       </div>
 
-      <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+      <p className="text-gray-600 text-sm mb-3 line-clamp-2">
         {shortenDescription(project.description)}
       </p>
+
+      {/* 프로젝트 상세 정보 */}
+      <div className="bg-gray-50 rounded-lg p-3 mb-4 text-xs">
+        <div className="space-y-2">
+          {/* 주요 기능 */}
+          <div>
+            <span className="font-medium text-gray-700">주요 기능:</span>
+            <span className="text-gray-600 ml-1">
+              {getProjectFeatures(project)}
+            </span>
+          </div>
+          
+          {/* 사용 기술 */}
+          <div>
+            <span className="font-medium text-gray-700">기술 스택:</span>
+            <span className="text-gray-600 ml-1">
+              {getProjectTechStack(project)}
+            </span>
+          </div>
+          
+          {/* 프로젝트 특징 */}
+          {getProjectHighlight(project) && (
+            <div>
+              <span className="font-medium text-gray-700">특징:</span>
+              <span className="text-gray-600 ml-1">
+                {getProjectHighlight(project)}
+              </span>
+            </div>
+          )}
+        </div>
+      </div>
 
       {/* 기술 스택 표시 */}
       <div className="flex items-center gap-3 mb-4 text-xs text-gray-500">

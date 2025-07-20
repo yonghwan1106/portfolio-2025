@@ -1,0 +1,99 @@
+name: Auto Update Portfolio
+
+on:
+  schedule:
+    # 매일 한국시간 오전 9시 (UTC 자정)에 실행
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 수동 실행 가능
+    inputs:
+      force_update:
+        description: 'Force update even if no changes'
+        required: false
+        default: 'false'
+
+jobs:
+  update-portfolio:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Install Python dependencies
+        run: |
+          pip install requests beautifulsoup4 lxml
+          
+      - name: Run portfolio scanner
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/auto_portfolio_scanner.py
+          
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true' || github.event.inputs.force_update == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "🔄 Auto update portfolio data
+          
+          - Scanned GitHub repositories for new deployments
+          - Updated project data with latest information
+          - Generated: $(date '+%Y-%m-%d %H:%M:%S UTC')
+          
+          🤖 Generated with [Claude Code](https://claude.ai/code)
+          
+          Co-Authored-By: Claude <noreply@anthropic.com>"
+          git push
+          
+      - name: Build and deploy
+        if: steps.check_changes.outputs.changes == 'true' || github.event.inputs.force_update == 'true'
+        run: |
+          npm run build
+          
+      - name: Setup Pages
+        if: steps.check_changes.outputs.changes == 'true' || github.event.inputs.force_update == 'true'
+        uses: actions/configure-pages@v4
+        
+      - name: Upload artifact
+        if: steps.check_changes.outputs.changes == 'true' || github.event.inputs.force_update == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+  deploy:
+    if: needs.update-portfolio.outputs.changes == 'true' || github.event.inputs.force_update == 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: update-portfolio
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

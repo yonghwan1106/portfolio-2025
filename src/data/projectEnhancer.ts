@@ -176,8 +176,133 @@ const projectEnhancements: Record<string, EnhancedProjectInfo> = {
     title: '강원도 해양관광 활성화 공모전',
     description: '강원도 동해안 해양관광 자원을 활용한 관광 상품 개발과 지역 경제 활성화 방안',
     category: '관광'
+  },
+  'damyang_regulation_innovation_contest': {
+    title: '담양군 규제혁신 아이디어 공모전',
+    description: '담양군 지역 발전을 위한 규제혁신 아이디어 제안 - 지역 특성을 살린 혁신적인 정책 개발과 규제 개선 방안',
+    category: '지자체'
+  },
+  'jung-gu-smart-carbon-care': {
+    title: '중구 스마트 탄소 케어 플랫폼',
+    description: '서울 중구 지역의 탄소 중립 실현을 위한 스마트 탄소 관리 시스템 - AI 기반 개인 맞춤형 탄소 저감 솔루션',
+    category: '환경'
+  },
+  'DAEGU_REGULATION_INNOVATION_CONTEST_2025': {
+    title: '대구시 규제혁신 아이디어 공모전 2025',
+    description: '대구시 혁신 성장을 위한 규제혁신 아이디어 공모 - 지역 특화 산업 육성과 기업 활동 지원을 위한 규제 개선',
+    category: '지자체'
+  },
+  'Gyeonggi_GenAI_PublicData_Startup': {
+    title: '경기도 생성형AI 공공데이터 창업경진대회',
+    description: '경기도 공공데이터와 생성형 AI를 활용한 창업 아이디어 - 데이터 기반 혁신 서비스 개발과 지역 경제 활성화',
+    category: 'AI/디지털'
+  },
+  'Yangpyeong_County_Development_Ideas': {
+    title: '양평군 지역발전 아이디어 공모전',
+    description: '양평군의 지속가능한 발전을 위한 창의적 아이디어 제안 - 자연 친화적 관광과 지역 경제 활성화 방안',
+    category: '지자체'
+  },
+  'Northern_GC_Public_Safety_Policy': {
+    title: '강북구 공공안전 정책 제안',
+    description: '강북구 주민 안전 강화를 위한 공공안전 정책 아이디어 - 스마트 기술을 활용한 지역 안전망 구축',
+    category: '안전'
+  },
+  'navermap': {
+    title: '네이버맵 연동 지역정보 서비스',
+    description: '네이버맵 API를 활용한 지역 맞춤형 정보 제공 서비스 - 실시간 위치 기반 편의시설 및 관광정보 통합 플랫폼',
+    category: 'AI/디지털'
+  },
+  'gunpo-digital-healthcare-zone': {
+    title: '군포시 디지털 헬스케어 특구',
+    description: '군포시 디지털 헬스케어 산업 육성을 위한 특구 조성 아이디어 - 의료 혁신과 건강관리 서비스 통합 생태계',
+    category: '지자체'
   }
 };
+
+// 자동 한국어 제목/설명 생성 함수
+function generateKoreanInfo(projectName: string, githubDescription: string): EnhancedProjectInfo {
+  const name = projectName.toLowerCase();
+  
+  // 지역명 매핑
+  const regions: Record<string, string> = {
+    'seoul': '서울시', 'busan': '부산시', 'daegu': '대구시', 'incheon': '인천시',
+    'gwangju': '광주시', 'daejeon': '대전시', 'ulsan': '울산시',
+    'gyeonggi': '경기도', 'gangwon': '강원도', 'chungbuk': '충북', 'chungnam': '충남',
+    'jeonbuk': '전북', 'jeonnam': '전남', 'gyeongbuk': '경북', 'gyeongnam': '경남',
+    'jeju': '제주도', 'sejong': '세종시',
+    'yangpyeong': '양평군', 'goryeong': '고령군', 'damyang': '담양군',
+    'hwaseong': '화성시', 'tongyeong': '통영시', 'gunpo': '군포시',
+    'geumjeong': '금정구', 'junggu': '중구', 'jung-gu': '중구'
+  };
+  
+  // 키워드 매핑
+  const keywords: Record<string, { title: string; category: string; description: string }> = {
+    'ai': { title: 'AI', category: 'AI/디지털', description: '인공지능 기술을 활용한' },
+    'smart': { title: '스마트', category: 'AI/디지털', description: '스마트 기술 기반의' },
+    'carbon': { title: '탄소 관리', category: '환경', description: '탄소 중립을 위한' },
+    'regulation': { title: '규제혁신', category: '규제혁신', description: '규제 개선을 통한' },
+    'innovation': { title: '혁신', category: '규제혁신', description: '혁신적인 아이디어로' },
+    'contest': { title: '공모전', category: '기타', description: '공모전 참여 프로젝트' },
+    'startup': { title: '창업', category: 'AI/디지털', description: '창업 지원을 위한' },
+    'safety': { title: '안전', category: '안전', description: '안전 강화를 위한' },
+    'tourism': { title: '관광', category: '관광', description: '관광 활성화를 위한' },
+    'healthcare': { title: '헬스케어', category: 'AI/디지털', description: '건강관리 서비스' },
+    'policy': { title: '정책', category: '지자체', description: '정책 개발을 위한' },
+    'marine': { title: '해양', category: '환경', description: '해양 환경 보호를 위한' },
+    'agriculture': { title: '농업', category: '농업', description: '농업 혁신을 통한' },
+    'youth': { title: '청년', category: '청년', description: '청년 지원을 위한' },
+    'birth': { title: '출산', category: '지자체', description: '출산 장려를 위한' },
+    'energy': { title: '에너지', category: '환경', description: '에너지 관리를 위한' },
+    'platform': { title: '플랫폼', category: 'AI/디지털', description: '통합 플랫폼' },
+    'digital': { title: '디지털', category: 'AI/디지털', description: '디지털 혁신을 통한' }
+  };
+  
+  // 지역명 추출
+  let regionName = '';
+  for (const [key, value] of Object.entries(regions)) {
+    if (name.includes(key)) {
+      regionName = value;
+      break;
+    }
+  }
+  
+  // 키워드 추출
+  const foundKeywords: string[] = [];
+  let category = '기타';
+  for (const [key, info] of Object.entries(keywords)) {
+    if (name.includes(key)) {
+      foundKeywords.push(info.title);
+      if (category === '기타') category = info.category;
+    }
+  }
+  
+  // 제목 생성
+  let title = '';
+  if (regionName && foundKeywords.length > 0) {
+    title = `${regionName} ${foundKeywords.slice(0, 2).join(' ')} 프로젝트`;
+  } else if (foundKeywords.length > 0) {
+    title = `${foundKeywords.slice(0, 2).join(' ')} 플랫폼`;
+  } else {
+    title = projectName.replace(/[-_]/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+  }
+  
+  // 설명 생성
+  let description = '';
+  if (githubDescription) {
+    description = githubDescription;
+  } else {
+    const descKeywords = foundKeywords.slice(0, 3);
+    if (regionName && descKeywords.length > 0) {
+      description = `${regionName} 지역의 ${descKeywords.join(', ')} 분야 혁신을 위한 디지털 플랫폼 서비스`;
+    } else if (descKeywords.length > 0) {
+      description = `${descKeywords.join(', ')} 분야의 혁신적인 솔루션을 제공하는 웹 애플리케이션`;
+    } else {
+      description = '혁신적인 아이디어를 구현한 웹 기반 서비스 플랫폼';
+    }
+  }
+  
+  return { title, description, category };
+}
 
 export function enhanceProject(project: Project): Project {
   const enhancement = projectEnhancements[project.name];
@@ -191,7 +316,14 @@ export function enhanceProject(project: Project): Project {
     };
   }
   
-  return project;
+  // 수동 정보가 없으면 자동 생성
+  const autoGenerated = generateKoreanInfo(project.name, project.description);
+  return {
+    ...project,
+    title: autoGenerated.title,
+    description: autoGenerated.description,
+    category: autoGenerated.category
+  };
 }
 
 export function enhanceProjectList(projects: Project[]): Project[] {

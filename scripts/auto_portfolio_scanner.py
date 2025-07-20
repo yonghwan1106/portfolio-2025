@@ -57,6 +57,33 @@ class AutoPortfolioScanner:
             
         return repos
     
+    def auto_categorize(self, repo_name: str, description: str) -> str:
+        """레포지토리명과 설명을 분석하여 자동으로 카테고리 분류"""
+        name_lower = repo_name.lower()
+        desc_lower = description.lower()
+        text = f"{name_lower} {desc_lower}"
+        
+        # 카테고리 키워드 매핑
+        category_keywords = {
+            'AI/디지털': ['ai', 'smart', 'digital', 'platform', 'tech', 'data', 'startup', 'innovation'],
+            '환경': ['carbon', 'eco', 'energy', 'marine', 'environment', 'green', 'climate'],
+            '농업': ['agriculture', 'farm', 'agri', 'food', 'crop'],
+            '안전': ['safety', 'security', 'emergency', 'protection'],
+            '관광': ['tourism', 'travel', 'tourist', 'heritage', 'culture'],
+            '청년': ['youth', 'young', 'student', 'startup'],
+            '지자체': ['city', 'county', 'district', 'local', 'municipal', 'policy', 'government'],
+            '규제혁신': ['regulation', 'deregulation', 'reform', 'policy'],
+            '문화': ['culture', 'heritage', 'art', 'museum', 'festival']
+        }
+        
+        # 키워드 매칭으로 카테고리 결정
+        for category, keywords in category_keywords.items():
+            for keyword in keywords:
+                if keyword in text:
+                    return category
+        
+        return '기타'
+    
     def check_deployment_url(self, url: str) -> Dict[str, Any]:
         """URL 접근 가능성 확인"""
         try:
@@ -157,6 +184,9 @@ class AutoPortfolioScanner:
         
         quality_score = min(quality_score, 95)  # 최대 95점
         
+        # 자동 카테고리 분류
+        category = self.auto_categorize(repo_name, repo.get('description', ''))
+        
         return {
             'id': repo_name,
             'name': repo_name,
@@ -167,7 +197,7 @@ class AutoPortfolioScanner:
             'primary_url': primary_url,
             'primary_platform': primary_platform,
             'is_live': len(deployments) > 0,
-            'category': '기타',  # 기본 카테고리
+            'category': category,
             'title': repo_name,
             'description': repo.get('description', ''),
             'github_url': repo['html_url'],

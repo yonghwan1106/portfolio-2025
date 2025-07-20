@@ -6,6 +6,7 @@ import FilterBar from './components/FilterBar';
 import StatsOverview from './components/StatsOverview';
 import { FilterOptions } from './types';
 import { filterProjects, getHighQualityProjects, sortProjects } from './utils';
+import { enhanceProjectList } from './data/projectEnhancer';
 // import portfolioData from './data/projects';
 import portfolioDataJson from '../projects_scan_result_final.json';
 
@@ -21,9 +22,9 @@ function App() {
   });
   const [sortBy, setSortBy] = useState<string>('quality');
 
-  // 새로운 데이터 구조에 호환성을 위한 프로젝트 변환
+  // 새로운 데이터 구조에 호환성을 위한 프로젝트 변환 및 한국어 정보 추가
   const transformedProjects = useMemo(() => {
-    return portfolioDataJson.projects.map((project: any) => ({
+    const basicTransform = portfolioDataJson.projects.map((project: any) => ({
       ...project,
       category: project.category || '기타',
       quality_score: project.quality_score || 50,
@@ -32,6 +33,9 @@ function App() {
       award_status: project.award_status || 'unknown',
       github_url: project.github_url || project.primary_url || '',
     }));
+    
+    // 한국어 제목과 설명 추가
+    return enhanceProjectList(basicTransform);
   }, []);
 
   // 프로젝트 필터링 및 정렬

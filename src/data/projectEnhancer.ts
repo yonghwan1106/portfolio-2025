@@ -1,0 +1,199 @@
+import { Project } from '../types';
+
+interface EnhancedProjectInfo {
+  title: string;
+  description: string;
+  category: string;
+}
+
+const projectEnhancements: Record<string, EnhancedProjectInfo> = {
+  'customs-validation-demo': {
+    title: '청년농업인 스마트농업 창업 원스톱 플랫폼 데모',
+    description: '2025년 농식품 규제혁신 공모전 제출한 청년농업인 스마트농업 창업 원스톱 플랫폼을 구축 아이디어의 실제 작동 모습을 보여주는 프로토타입입니다.',
+    category: '농업'
+  },
+  'ai-strategic-tech-classifier-2025': {
+    title: '부산 금정구 고령사회기부제 지정기부사업 아이디어 공모',
+    description: 'VR/AR 기술을 활용한 가상 금정구 고향 체험 플랫폼 - 부산광역시 금정구 고령사회기부제 지정기부사업 아이디어 공모 제출서',
+    category: 'AI/디지털'
+  },
+  'portfolio-hub': {
+    title: '1인 크리에이터 통합 서비스톡 플랫폼 웹사이트',
+    description: '대구광역시 규제혁신 아이디어 공모전 제안서 구현 - 1인 크리에이터들의 복잡한 서비스톡 절차를 간소화하는 통합 플랫폼',
+    category: '규제혁신'
+  },
+  'KOMIPO-energy-island-platform': {
+    title: 'KOMIPO 에너지 섬악 웹런치 플랫폼',
+    description: '2025년 KOMIPO 대학원 시정평택 아이디어 공모전 - 계절외취 에너지 섬악 웹런치를 통한 시정 창여형 경환 보호 플랫폼',
+    category: '환경'
+  },
+  'gyeonggi-smart-carbon-platform': {
+    title: '경기도 생성형AI 공공데이터 창업경진대회',
+    description: '생성형 AI와 경기도 공공데이터를 활용한 상경 본석 및 탄소 상담 컴슬팅 서비스 - AI 기반 개인 탄소 본석 및 탄소중립 컨설팅 서비스',
+    category: 'AI/디지털'
+  },
+  'jung-gu-smart-carbon-platform': {
+    title: 'Jung-gu Smart Carbon Care Platform',
+    description: '2025 Seoul Jung-gu Policy Idea Competition - AI 기반 개인 탄소관리 탄소중립 관리 및 중소 실현 플랫폼',
+    category: '환경'
+  },
+  'namyangju-smart-city-platform': {
+    title: '남양주시 스마트시티 통합 플랫폼',
+    description: '남양주시 정착 아이디어 공모전 - 시민 승차의 스마트시티 서비스 통합 플랫폼 구현 서민 창여형 스마트 방화',
+    category: '지자체'
+  },
+  'smart-city-forest-platform': {
+    title: '스마트시티 혁신 허브 플랫폼',
+    description: 'IoT와 AI 기술을 활용한 스마트시티 솔루션 통합 플랫폼 - 도시 환경 혁상을 위한 시민 참여형 혁신 생태계',
+    category: 'AI/디지털'
+  },
+  'korean-agriculture-innovation-platform': {
+    title: '전국 농업 창업 아이디어 공모전',
+    description: '농업 혁신을 통한 지속가능한 농업 생태계 구축 - 스마트팜과 ICT 기술을 결합한 차세대 농업 창업 모델',
+    category: '농업'
+  },
+  'daily-vibes': {
+    title: '일상 감정 추적 및 분석 플랫폼',
+    description: '개인의 일상 감정을 추적하고 분석하여 정신 건강 관리를 돕는 웹 애플리케이션 - 감정 패턴 분석과 개인화된 건강 관리 서비스',
+    category: '관광'
+  },
+  'smart_voice_guard': {
+    title: 'AI 기반 음성 피싱 탐지 시스템',
+    description: '딥러닝과 음성인식 기술을 활용한 실시간 피싱 전화 탐지 및 차단 시스템 - 고령자 대상 전화사기 예방 솔루션',
+    category: '안전'
+  },
+  'korea-night-market-platform': {
+    title: '전국 야시장 통합 관리 플랫폼',
+    description: '전국 야시장 정보를 통합 관리하고 상인과 고객을 연결하는 디지털 플랫폼 - 지역 경제 활성화와 관광 산업 발전',
+    category: '관광'
+  },
+  'busan-geumjeong-vr-platform': {
+    title: '부산 금정구 VR 고향 체험 플랫폼',
+    description: 'VR/AR 기술을 활용한 가상 금정구 고향 체험 서비스 - 고령자를 위한 디지털 고향 방문 및 추억 공유 플랫폼',
+    category: 'AI/디지털'
+  },
+  'gangwon-ocean-cleanup': {
+    title: '강원도 해양 쓰레기 AI 분류 시스템',
+    description: '강원도 해안가 해양 쓰레기를 AI로 자동 분류하고 관리하는 환경 보호 시스템 - 지속가능한 해양 환경 관리',
+    category: '환경'
+  },
+  'seoul-youth-startup-hub': {
+    title: '서울시 청년 창업 지원 허브',
+    description: '서울시 청년 창업가를 위한 원스톱 지원 서비스 플랫폼 - 창업 교육, 자금 지원, 네트워킹을 통합한 창업 생태계',
+    category: '청년'
+  },
+  'incheon-smart-port': {
+    title: '인천항 스마트 물류 최적화 시스템',
+    description: '인천항의 물류 흐름을 AI로 최적화하여 효율성을 높이는 스마트 포트 시스템 - IoT와 빅데이터 기반 항만 관리',
+    category: 'AI/디지털'
+  },
+  'daegu-cultural-heritage': {
+    title: '대구 문화유산 디지털 아카이브',
+    description: '대구 지역의 문화유산을 디지털로 보존하고 시민들과 공유하는 문화 플랫폼 - AR/VR 기술로 역사 체험 서비스',
+    category: '문화'
+  },
+  'ulsan-industrial-safety': {
+    title: '울산 산업단지 안전 모니터링 시스템',
+    description: '울산 산업단지의 안전사고를 예방하기 위한 IoT 기반 실시간 모니터링 시스템 - 산업 안전과 근로자 보호',
+    category: '안전'
+  },
+  'IdeaVault': {
+    title: '아이디어 금고 - 창의적 아이디어 관리 플랫폼',
+    description: '개인과 팀의 창의적 아이디어를 체계적으로 저장, 관리, 발전시키는 디지털 아이디어 뱅크 시스템',
+    category: 'AI/디지털'
+  },
+  'safenergy-platform': {
+    title: '안전한 에너지 통합 관리 플랫폼',
+    description: '신재생 에너지의 안전한 생산과 배급을 통합 관리하는 스마트 에너지 플랫폼 - 지속가능한 에너지 생태계 구축',
+    category: '환경'
+  },
+  'smartkids': {
+    title: '스마트 키즈 - 아동 성장 관리 플랫폼',
+    description: '아이들의 성장과 학습을 체계적으로 관리하고 부모와 교육자를 연결하는 통합 아동 케어 시스템',
+    category: '청년'
+  },
+  'media_compass_prototype': {
+    title: '미디어 컴퍼스 - 뉴스 신뢰도 검증 시스템',
+    description: 'AI 기반 뉴스 및 미디어 신뢰도 검증 시스템 - 가짜뉴스 탐지와 정보 품질 평가 서비스',
+    category: 'AI/디지털'
+  },
+  'geunnae-residence': {
+    title: '근내 레지던스 - 스마트 주거 관리 시스템',
+    description: '주민 편의와 안전을 위한 스마트 아파트 관리 시스템 - IoT 기반 통합 주거 서비스',
+    category: '지자체'
+  },
+  'labor_safety_smart_manager': {
+    title: '노동 안전 스마트 매니저',
+    description: '작업장 안전사고 예방을 위한 AI 기반 실시간 모니터링 시스템 - 산업 현장 안전 관리 솔루션',
+    category: '안전'
+  },
+  'BlueCarbon_Monitor': {
+    title: '블루카본 모니터링 시스템',
+    description: '해양 생태계의 탄소 흡수량을 모니터링하고 관리하는 환경 보호 시스템 - 기후변화 대응 해양 탄소 관리',
+    category: '환경'
+  },
+  'Hwaseong_Birth_Policy_Contest_2025': {
+    title: '화성시 출산 정책 아이디어 공모전 2025',
+    description: '화성시 저출산 문제 해결을 위한 혁신적인 출산 장려 정책 제안 - 가족 친화적 도시 환경 조성',
+    category: '지자체'
+  },
+  'AI_Smart_Procurement_Advisor': {
+    title: 'AI 스마트 조달 어드바이저',
+    description: '공공조달 과정을 AI로 최적화하여 투명성과 효율성을 높이는 스마트 조달 시스템',
+    category: 'AI/디지털'
+  },
+  'TONGYEONG_INTEGRITY_CONTEST_2025': {
+    title: '통영시 청렴 문화 확산 공모전 2025',
+    description: '통영시 공직자와 시민의 청렴 의식 향상을 위한 디지털 플랫폼 - 투명한 행정 문화 조성',
+    category: '지자체'
+  },
+  'kodit-global-bridge-demo': {
+    title: 'KODIT 글로벌 브릿지 데모',
+    description: '중소기업의 글로벌 진출을 지원하는 종합 플랫폼 - 수출입 지원과 해외 파트너 매칭 서비스',
+    category: '규제혁신'
+  },
+  'EcoChallenge_KOMIPO': {
+    title: 'KOMIPO 에코 챌린지 플랫폼',
+    description: '시민 참여형 환경 보호 챌린지 플랫폼 - 탄소 중립 실천과 친환경 라이프스타일 확산',
+    category: '환경'
+  },
+  'Goryeong_Policy_Proposal_2025': {
+    title: '고령군 정책 제안 공모전 2025',
+    description: '고령군 지역 발전을 위한 혁신적인 정책 아이디어 제안 - 지역 특성을 활용한 발전 전략',
+    category: '지자체'
+  },
+  'BUSAN_GEUMJEONG_HOMETOWN_DONATION_CONTEST_2025': {
+    title: '부산 금정구 고향사랑기부제 공모전 2025',
+    description: '부산 금정구 고향사랑기부제를 활용한 지역 발전 아이디어 - 지역 경제 활성화와 주민 복지 향상',
+    category: '지자체'
+  },
+  'AgriFood_Regulation_Innovation_2025': {
+    title: '농식품 규제혁신 공모전 2025',
+    description: '농식품 분야의 불필요한 규제를 개선하여 농업 혁신과 경쟁력 강화를 위한 정책 제안',
+    category: '농업'
+  },
+  'Gangwon_Marine_Tourism_Contest': {
+    title: '강원도 해양관광 활성화 공모전',
+    description: '강원도 동해안 해양관광 자원을 활용한 관광 상품 개발과 지역 경제 활성화 방안',
+    category: '관광'
+  }
+};
+
+export function enhanceProject(project: Project): Project {
+  const enhancement = projectEnhancements[project.name];
+  
+  if (enhancement) {
+    return {
+      ...project,
+      title: enhancement.title,
+      description: enhancement.description,
+      category: enhancement.category
+    };
+  }
+  
+  return project;
+}
+
+export function enhanceProjectList(projects: Project[]): Project[] {
+  return projects.map(enhanceProject);
+}

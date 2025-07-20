@@ -245,6 +245,12 @@ class AutoPortfolioScanner:
         
         for i, repo in enumerate(repos, 1):
             repo_name = repo['name']
+            
+            # portfolio-hub 제외
+            if repo_name == 'portfolio-hub':
+                print(f"[{i}/{len(repos)}] Skipping {repo_name} (excluded)")
+                continue
+            
             print(f"[{i}/{len(repos)}] Scanning {repo_name}...")
             
             # 레포지토리 스캔

@@ -1,7 +1,17 @@
 import React from 'react';
 import { Trophy, Globe, Lightbulb, Target } from 'lucide-react';
+import { Project } from '../types';
 
-const Header: React.FC = () => {
+interface HeaderProps {
+  projects: Project[];
+}
+
+const Header: React.FC<HeaderProps> = ({ projects }) => {
+  // 통계 계산
+  const totalProjects = projects.length;
+  const liveProjects = projects.filter(p => p.is_live).length;
+  const averageQuality = projects.reduce((sum, p) => sum + (p.quality_score || 50), 0) / totalProjects;
+  const successRate = (liveProjects / totalProjects) * 100;
   return (
     <header className="gradient-bg text-white">
       <div className="container mx-auto px-4 py-16">
@@ -31,7 +41,7 @@ const Header: React.FC = () => {
             <div className="flex items-center justify-center mb-3">
               <Lightbulb className="w-8 h-8 text-yellow-300" />
             </div>
-            <div className="text-2xl font-bold mb-1">53</div>
+            <div className="text-2xl font-bold mb-1">{totalProjects}</div>
             <div className="text-blue-100 text-sm">총 프로젝트</div>
           </div>
           
@@ -39,7 +49,7 @@ const Header: React.FC = () => {
             <div className="flex items-center justify-center mb-3">
               <Globe className="w-8 h-8 text-green-300" />
             </div>
-            <div className="text-2xl font-bold mb-1">30</div>
+            <div className="text-2xl font-bold mb-1">{liveProjects}</div>
             <div className="text-blue-100 text-sm">라이브 사이트</div>
           </div>
           
@@ -47,7 +57,7 @@ const Header: React.FC = () => {
             <div className="flex items-center justify-center mb-3">
               <Target className="w-8 h-8 text-purple-300" />
             </div>
-            <div className="text-2xl font-bold mb-1">73.2</div>
+            <div className="text-2xl font-bold mb-1">{averageQuality.toFixed(1)}</div>
             <div className="text-blue-100 text-sm">평균 품질점수</div>
           </div>
           
@@ -55,7 +65,7 @@ const Header: React.FC = () => {
             <div className="flex items-center justify-center mb-3">
               <Trophy className="w-8 h-8 text-orange-300" />
             </div>
-            <div className="text-2xl font-bold mb-1">56.6%</div>
+            <div className="text-2xl font-bold mb-1">{successRate.toFixed(1)}%</div>
             <div className="text-blue-100 text-sm">성공률</div>
           </div>
         </div>

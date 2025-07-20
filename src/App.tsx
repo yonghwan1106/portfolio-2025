@@ -24,15 +24,17 @@ function App() {
 
   // 새로운 데이터 구조에 호환성을 위한 프로젝트 변환 및 한국어 정보 추가
   const transformedProjects = useMemo(() => {
-    const basicTransform = portfolioDataJson.projects.map((project: any) => ({
-      ...project,
-      category: project.category || '기타',
-      quality_score: project.quality_score || 50,
-      title: project.title || project.name,
-      description: project.description || '',
-      award_status: project.award_status || 'unknown',
-      github_url: project.github_url || project.primary_url || '',
-    }));
+    const basicTransform = portfolioDataJson.projects
+      .filter((project: any) => project.name !== 'portfolio-hub') // portfolio-hub 제외
+      .map((project: any) => ({
+        ...project,
+        category: project.category || '기타',
+        quality_score: project.quality_score || 50,
+        title: project.title || project.name,
+        description: project.description || '',
+        award_status: project.award_status || 'unknown',
+        github_url: project.github_url || project.primary_url || '',
+      }));
     
     // 한국어 제목과 설명 추가
     return enhanceProjectList(basicTransform);
@@ -56,7 +58,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
+      <Header projects={transformedProjects} />
 
       {/* 네비게이션 탭 */}
       <div className="bg-white border-b border-gray-200 sticky top-0 z-10">
